@@ -63,3 +63,7 @@ You should not see the hello-world:v1 instance anymore.
     docker rmi hello-world:v1
 
 ![image](https://github.com/user-attachments/assets/54270d01-a547-4486-aad5-7e3fa8d69a71)
+
+## Docker CLI - tagging
+
+![image](https://github.com/user-attachments/assets/c3f72b85-5053-4a1e-93b2-95d8e05bd31b)
