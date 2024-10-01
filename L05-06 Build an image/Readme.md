@@ -53,6 +53,9 @@ You should not see the hello-world:v1 instance anymore.
 
     docker ps
 
+![image](https://github.com/user-attachments/assets/54270d01-a547-4486-aad5-7e3fa8d69a71)
+
+
 ## Is the image still present?
 
     docker images
