@@ -27,6 +27,9 @@ When the app will run, launch the voting app in your browser http://localhost:50
 
 ## Compose V2 commands
 
+![image](https://github.com/user-attachments/assets/c1461459-c3df-4b92-b832-50471d592b43)
+
+
 LS will list the current projects
 
     docker compose ls
