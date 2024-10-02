@@ -1,5 +1,10 @@
 # L08-03
 
+## Volumes cheat sheet
+
+![image](https://github.com/user-attachments/assets/70f4f909-7409-41bc-947d-38070d8d8d28)
+
+
 ## Open a terminal and create a volume
 
     docker volume create myvol
