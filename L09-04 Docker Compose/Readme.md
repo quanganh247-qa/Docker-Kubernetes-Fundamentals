@@ -86,4 +86,7 @@ Volumes - named
 
 ![image](https://github.com/user-attachments/assets/1669ad86-c6d4-4c9f-9f67-48e3f5031412)
 
+## Restart policy
+
+![image](https://github.com/user-attachments/assets/20bf3966-a1ea-4fdc-a81e-30956a8fef45)
 
