@@ -53,7 +53,6 @@ You should not see the hello-world:v1 instance anymore.
 
     docker ps
 
-
 ## Is the image still present?
 
     docker images
@@ -61,11 +60,3 @@ You should not see the hello-world:v1 instance anymore.
 ## Delete the image
 
     docker rmi hello-world:v1
-
-![image](https://github.com/user-attachments/assets/54270d01-a547-4486-aad5-7e3fa8d69a71)
-
-WORKDIR /src: This sets the working directory within the Docker container to /src, meaning that subsequent commands will be executed in this directory.
-
-## Docker CLI - tagging
-
-![image](https://github.com/user-attachments/assets/c3f72b85-5053-4a1e-93b2-95d8e05bd31b)
