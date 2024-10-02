@@ -1,5 +1,10 @@
 # L09-04
 
+## Docker compose cheat sheet
+
+![image](https://github.com/user-attachments/assets/a00527fc-465c-4eca-abe8-46595069bdba)
+
+
 ## Build the app
 
     docker compose build
