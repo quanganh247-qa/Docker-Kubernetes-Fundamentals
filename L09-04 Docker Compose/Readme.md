@@ -70,3 +70,19 @@ How many versions do we have running?
     docker compose ls
     docker compose -p test down
     docker compose ls
+## Netwoking
+
+![image](https://github.com/user-attachments/assets/b1a03a20-559d-457c-b00b-04abcb9ff5c0)
+
+![image](https://github.com/user-attachments/assets/f2ac7fa7-46b7-4862-a218-f126298562b2)
+
+## Dependence
+
+![image](https://github.com/user-attachments/assets/a63d529a-2219-45d2-b7d8-906d7c6caee7)
+
+Volumes - named
+
+![image](https://github.com/user-attachments/assets/7a7f6f10-5a0a-482b-9ca3-90cebeaeed36)
+
+
+
