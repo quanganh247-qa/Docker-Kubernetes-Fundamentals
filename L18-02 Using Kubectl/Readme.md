@@ -36,6 +36,14 @@ Ubuntu:
 
     sudo apt install kubectx
 
+WSL2:
+     `git clone https://github.com/ahmetb/kubectx.git ~/.kubectx`
+
+Add kubectx to your PATH:
+
+    sudo ln -s ~/.kubectx/kubectx /usr/local/bin/kubectx
+    sudo ln -s ~/.kubectx/kubens /usr/local/bin/kubens
+
 To list the contexts, simply type:
 
     kubectx
