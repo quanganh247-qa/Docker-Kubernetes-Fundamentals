@@ -9,6 +9,8 @@ Let’s create multiple containers in a Pod using a YAML file.  We'll use the Bu
 
 ![image](https://github.com/user-attachments/assets/53637035-9b89-4d78-a842-dc5d678fc8ba)
 
+![image](https://github.com/user-attachments/assets/c91f8ff6-15bf-4ba0-aba8-53b7cb972f72)
+
 ## Create the pod
 
     kubectl create -f two-containers.yaml
