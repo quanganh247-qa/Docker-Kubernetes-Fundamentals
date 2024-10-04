@@ -2,6 +2,8 @@
 
 Let's now use the ReplicaSet template instead of the Pod template.
 
+![Uploading image.png…]()
+
 ## Create the ReplicaSet
 
     kubectl apply -f rs-example.yaml
