@@ -8,6 +8,16 @@ Let’s first create a node running Nginx by using the imperative way.
 ## Pod creation
 ![image](https://github.com/user-attachments/assets/9428b944-1b45-4256-a80b-fbe27d0c0cfe)
 
+## Pod deletion
+![image](https://github.com/user-attachments/assets/bfd4c9fc-688d-4f56-8359-925c0eb44038)
+
+## YAML 
+![image](https://github.com/user-attachments/assets/ebea79bf-8bda-420c-9579-38e440371815)
+![image](https://github.com/user-attachments/assets/b83c61c3-b253-42ba-890a-6e869c83cc2f)
+![image](https://github.com/user-attachments/assets/82778a0e-dcb8-485b-9412-f653aba12857)
+
+## kubectl - Pod cheatsheet
+![image](https://github.com/user-attachments/assets/d0df7516-75ec-40e1-aca9-fc0906d37ddb)
 
 ## Create the pod
 
