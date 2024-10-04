@@ -7,6 +7,7 @@ Let’s create multiple containers in a Pod using a YAML file.  We'll use the Bu
 ## Pod networking
 ![image](https://github.com/user-attachments/assets/7710437e-d8d9-4399-bc9c-854c913eb561)
 
+![image](https://github.com/user-attachments/assets/53637035-9b89-4d78-a842-dc5d678fc8ba)
 
 ## Create the pod
 
