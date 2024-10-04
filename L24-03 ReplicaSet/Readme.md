@@ -2,7 +2,8 @@
 
 Let's now use the ReplicaSet template instead of the Pod template.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5c341517-416c-49b5-bbf0-c80a9f98fb18)
+
 
 ## Create the ReplicaSet
 
