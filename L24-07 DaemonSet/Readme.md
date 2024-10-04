@@ -8,6 +8,9 @@ Let's deploy a Busybox as a DaemonSet.
 
 The daemon workload ensures that an instance of a pod is running on each one of these nodes
 
+![image](https://github.com/user-attachments/assets/57cf9391-02a0-45c0-944f-ee8fb9d2fd1a)
+
+![image](https://github.com/user-attachments/assets/87fc0942-4fa1-445d-b5ec-9c8f54bb59d8)
 
 ## Create the Deployment
 
