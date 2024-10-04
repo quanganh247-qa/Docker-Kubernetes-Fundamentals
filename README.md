@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fa506146-a6d8-4fa2-a99a-153b2efeed43)
+![image](https://github.com/user-attachments/assets/43971dee-7f41-4c4b-9fbd-bf5120079ee2)
 
 1. Pods
 - Là đơn vị nhỏ nhất trong K8s
