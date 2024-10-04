@@ -2,6 +2,13 @@
 
 Let’s first create a node running Nginx by using the imperative way.
 
+## Pods architecture
+![image](https://github.com/user-attachments/assets/2b2b84b4-8240-4887-9805-bfdd1397ce20)
+
+## Pod creation
+![image](https://github.com/user-attachments/assets/9428b944-1b45-4256-a80b-fbe27d0c0cfe)
+
+
 ## Create the pod
 
     kubectl run mynginx --image=nginx
@@ -61,3 +68,4 @@ Print the DBCON environment variable that was set in the YAML file.
 ## Cleanup
 
     kubectl delete -f myapp.yaml
+
