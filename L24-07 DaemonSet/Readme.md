@@ -15,6 +15,10 @@ The daemon workload ensures that an instance of a pod is running on each one of 
 ## Create the Deployment
 
     kubectl apply -f daemonset.yaml
+    
+![image](https://github.com/user-attachments/assets/fd6d9f2f-d6cb-4937-8cad-301b1b0de223)
+
+     -> kubectl apply -f daemonset.yaml --validate=false
 
 ## Get the pods list
 
