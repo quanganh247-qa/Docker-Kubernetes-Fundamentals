@@ -2,6 +2,16 @@
 
 Let's now create a StafulSet.
 
+![image](https://github.com/user-attachments/assets/88f0cd74-5bfc-436c-8ea5-fd30ac959faa)
+
+![image](https://github.com/user-attachments/assets/4f87bcd4-fa94-4ac6-b3bd-a8497c846365)
+
+![image](https://github.com/user-attachments/assets/327356b5-99a8-47fe-a37e-d18257a4b863)
+
+![image](https://github.com/user-attachments/assets/020b26f7-11b4-416b-9227-d800fe6a405b)
+
+![image](https://github.com/user-attachments/assets/c7d67d17-ceb5-4284-8dc6-2ced99a478b9)
+
 ## Create the Deployment
 
     kubectl apply -f statefulset.yaml
