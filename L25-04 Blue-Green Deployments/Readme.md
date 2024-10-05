@@ -2,6 +2,13 @@
 
 **NOTE: If you are running this lab on a ARM64 laptop/PC, edit the YAML file and change the image name from "hello-app" to "hello-arm" keeping the tag name as is.**
 
+![image](https://github.com/user-attachments/assets/06771dab-28ff-4036-b723-f4cd1dfb6dee)
+
+![image](https://github.com/user-attachments/assets/aea27eab-bbd0-4a6e-b15f-6be3ca55b44e)
+
+--> ![image](https://github.com/user-attachments/assets/5ed79445-0641-4dcf-a73e-77d74618d0e5)
+
+
 ## Create a V1 Deployment
 
     kubectl create -f hello-dep-v1.yaml
