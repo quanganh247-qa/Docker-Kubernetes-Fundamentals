@@ -1,5 +1,8 @@
 # L27-03
 
+![image](https://github.com/user-attachments/assets/ba89b8e7-0830-4d5a-bf01-39749e0bc8c7)
+
+
 ## Create the Persistent Volume
 
     kubectl apply -f pv.yaml
