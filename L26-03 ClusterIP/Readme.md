@@ -16,6 +16,23 @@
 Điều này cho phép các ứng dụng trong cùng một namespace hoặc namespace khác dễ dàng tìm và giao tiếp với Service.
 - Service là cách truy cập vào Pods:
     Services cung cấp một cách để truy cập và giao tiếp với các Pods, bất kể số lượng và trạng thái của chúng, giúp duy trì tính sẵn sàng và ổn định cho ứng dụng.
+
+  ![image](https://github.com/user-attachments/assets/85df7607-6c8b-4ff5-bf46-cbc641827463)
+
+- ClusterIP là dịch vụ mặc định:
+    Đây là loại dịch vụ được sử dụng khi không chỉ định loại nào khác. Nó cung cấp truy cập nội bộ cho các Pods trong cluster.
+- Tính khả dụng (Visibility):
+    ClusterIP chỉ có thể được truy cập từ bên trong cluster, giúp bảo mật và kiểm soát truy cập tốt hơn cho các dịch vụ.
+- Cổng (Port):
+    Đây là cổng mà Service đang lắng nghe. Khi một yêu cầu được gửi đến Service, nó sẽ được gửi đến cổng này.
+- TargetPort:
+Đây là cổng mà các Pods đang lắng nghe. Service sẽ chuyển tiếp yêu cầu đến TargetPort của các Pods.
+- Cân bằng tải bằng phương pháp round robin:
+    Kubernetes sử dụng phương pháp round robin để phân phối lưu lượng đến các Pods. 
+- Tính khả dụng của phiên làm việc (Session affinity):
+    Tính năng này cho phép các yêu cầu từ cùng một client được gửi đến cùng một Pod trong một phiên làm việc, giúp duy trì trạng thái của ứng dụng nếu cần thiết.
+- Mục đích:
+    ClusterIP cung cấp một cách bền vững để giao tiếp với các Pods bên trong cluster, đảm bảo rằng các ứng dụng có thể hoạt động một cách ổn định và hiệu quả.
   
 ## Deploy the service
 
