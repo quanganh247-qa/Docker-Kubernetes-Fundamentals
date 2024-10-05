@@ -84,11 +84,15 @@ or
 ## How many ReplicaSets do we have?
 
     kubectl get rs
-    
-## Issues
-![image](https://github.com/user-attachments/assets/5137622b-2067-4601-acfe-b58e426ea744)
-
 
 ## Cleanup
 
     kubectl delete -f hello-deployment.yaml
+    
+## Issues
+![image](https://github.com/user-attachments/assets/5137622b-2067-4601-acfe-b58e426ea744)
+
+-> Use blue-green deployment
+
+
+
