@@ -33,7 +33,15 @@
     Tính năng này cho phép các yêu cầu từ cùng một client được gửi đến cùng một Pod trong một phiên làm việc, giúp duy trì trạng thái của ứng dụng nếu cần thiết.
 - Mục đích:
     ClusterIP cung cấp một cách bền vững để giao tiếp với các Pods bên trong cluster, đảm bảo rằng các ứng dụng có thể hoạt động một cách ổn định và hiệu quả.
-  
+
+![image](https://github.com/user-attachments/assets/3c04a1a1-aed5-4640-a8bf-dfc364e62e11)
+
+![image](https://github.com/user-attachments/assets/4e072779-ea9b-45dc-8c7f-de5b87e53e8a)
+
+![image](https://github.com/user-attachments/assets/d82d7d40-cbf5-408b-9e4e-b948a1a1ff67)
+
+![image](https://github.com/user-attachments/assets/8de41c41-8c81-4637-a323-4a9f8b1f3b07)
+
 ## Deploy the service
 
     kubectl apply -f clusterip.yaml
