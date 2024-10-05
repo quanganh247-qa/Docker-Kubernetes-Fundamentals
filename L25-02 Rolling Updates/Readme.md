@@ -14,6 +14,8 @@
     Điều này đảm bảo rằng một số lượng tối thiểu Pods vẫn hoạt động trong khi cập nhật diễn ra.
     Ví dụ: Nếu bạn có 10 Pods và maxUnavailable là 25%, tối đa 2 Pods có thể không khả dụng trong quá trình cập nhật.
 
+![image](https://github.com/user-attachments/assets/91e56dea-b449-486f-911f-66cfb23bb118)
+
 
 ## Create a V1 Deployment
 
