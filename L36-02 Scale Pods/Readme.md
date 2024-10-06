@@ -2,6 +2,10 @@
 
 Let's use the Horizontal Pod Autoscaler to scale a pod.
 
+![image](https://github.com/user-attachments/assets/b6d7f15d-0b6e-4926-aeda-14fb8d4c86e9)
+
+![image](https://github.com/user-attachments/assets/8bf14987-87e7-45f0-9613-5adc400e200c)
+
 ## Metrics Server
 
 Is the Metrics Server installed in your cluster?  Look for a pod called **metrics-server** in the kube-system namespace
