@@ -1,7 +1,26 @@
 # L27-03
 
+# Storage - the static way
+
 ![image](https://github.com/user-attachments/assets/ba89b8e7-0830-4d5a-bf01-39749e0bc8c7)
 
+![image](https://github.com/user-attachments/assets/b38f9472-adae-4e0a-b58b-e1673e45836f)
+
+![image](https://github.com/user-attachments/assets/8b31fd6e-7499-4cd1-a0d7-1a7c748a80e9)
+
+![image](https://github.com/user-attachments/assets/99e26738-7523-4ff2-9612-04caa078b271)
+
+![image](https://github.com/user-attachments/assets/3a8e9cf9-aa1b-404f-993f-3adb6acdd9d2)
+
+![image](https://github.com/user-attachments/assets/2fcd044f-8f31-4e01-a566-5926632e3603)
+
+![image](https://github.com/user-attachments/assets/f4cc9074-1e6a-44a5-8dda-38429c11fb6d)
+
+![image](https://github.com/user-attachments/assets/4d2d9b73-46f3-4863-b801-99ade606b861)
+
+![image](https://github.com/user-attachments/assets/8e3e4aba-2133-4377-9664-9558eb7bf0bf)
+
+![image](https://github.com/user-attachments/assets/25a3cd46-57c1-43db-91f5-fa163b723141)
 
 ## Create the Persistent Volume
 
