@@ -22,6 +22,21 @@
 
 ![image](https://github.com/user-attachments/assets/25a3cd46-57c1-43db-91f5-fa163b723141)
 
+# Storage - the dynamic way
+
+![image](https://github.com/user-attachments/assets/43c05e20-4580-4cda-80f0-afd312c10bb0)
+
+![image](https://github.com/user-attachments/assets/e2e02581-5b23-457f-8391-74e862392a77)
+
+![image](https://github.com/user-attachments/assets/1fedcd2a-05e7-4906-a0ab-41c2f72988e8)
+
+![image](https://github.com/user-attachments/assets/2232529b-7676-4f27-ab5c-243a175f322b)
+
+# Comparision
+
+![image](https://github.com/user-attachments/assets/f9cadec6-b5aa-4a5a-b6b8-8b27ed37c0c6)
+
+
 ## Create the Persistent Volume
 
     kubectl apply -f pv.yaml
