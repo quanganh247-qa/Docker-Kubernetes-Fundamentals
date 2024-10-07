@@ -13,28 +13,91 @@
 - Dùng khi: Cần duy trì số lượng pod nhất định
 - Cách dùng: Thường được tạo tự động bởi Deployment
 
-3. Deployments 
-- Quản lý việc triển khai và cập nhật ứng dụng
-- Dùng khi: Triển khai ứng dụng stateless
-- Cách dùng: Tạo qua file YAML, định nghĩa image, replicas,...
+Deployments
 
-4. DaemonSets
-- Đảm bảo mỗi node chạy một bản copy của pod
-- Dùng khi: Chạy các agent như monitoring, logging trên mọi node
-- Cách dùng: Tạo qua YAML file
+Quản lý ReplicaSets và cung cấp declarative updates cho Pods
+Dùng khi: Deploy ứng dụng stateless, cần rolling updates/rollbacks
+Cách dùng: Define desired state trong manifest file
+Ví dụ phổ biến: Web applications, microservices
 
-5. Services
-- Cung cấp network endpoint ổn định cho pods
-- Dùng khi: Cần expose pods ra network
-- Cách dùng: Định nghĩa selector để tìm pods cần expose
+StatefulSet
 
-6. Namespaces
-- Phân chia cluster thành nhiều virtual cluster
-- Dùng khi: Cần tách biệt resources theo team/project
-- Cách dùng: Tạo namespace và gán resources vào
+Quản lý Pods có state và unique identity
+Dùng khi: Cần persistent storage và network identity ổn định
+Cách dùng: Define trong manifest với PersistentVolumeClaims
+Ví dụ phổ biến: Databases, message queues
 
-7. Nodes
-- Máy worker chạy các pods
-- Là server vật lý hoặc VM trong cluster
-- Dùng khi: Cần thêm computing resource
-- Cách dùng: Thêm node vào cluster thông qua kubeadm
+DaemonSet
+
+Đảm bảo mỗi node chạy một copy của pod
+Dùng khi: Cần chạy pod trên tất cả (hoặc một số) nodes
+Cách dùng: Define pod template áp dụng cho nodes
+Ví dụ phổ biến: Monitoring agents, log collectors
+
+Services
+
+Expose pods với stable network endpoint
+Dùng khi: Cần truy cập đến pods
+Các loại:
+
+ClusterIP: Internal access
+NodePort: External access through node port
+LoadBalancer: External access through cloud provider
+
+Ví dụ phổ biến: API endpoints, web services
+
+Namespaces
+
+Phân chia tài nguyên cluster thành các không gian riêng biệt
+Dùng khi: Cần isolation giữa teams, projects, environments
+Cách dùng: Create namespace và assign resources
+Ví dụ phổ biến: dev, staging, prod environments
+
+Job/CronJob
+
+Job: Tạo pods chạy task đến khi hoàn thành
+CronJob: Job chạy theo lịch định sẵn
+Dùng khi: Cần thực hiện batch processing hoặc scheduled tasks
+Ví dụ phổ biến: Backup jobs, cleanup tasks
+
+ConfigMaps
+
+Lưu trữ configuration data non-sensitive
+Dùng khi: Cần external configuration cho applications
+Cách dùng: Mount như files hoặc environment variables
+Ví dụ phổ biến: Application settings, URLs
+
+Secrets
+
+Lưu trữ sensitive data
+Dùng khi: Cần bảo mật thông tin như passwords, tokens
+Cách dùng: Mount như files hoặc environment variables
+Ví dụ phổ biến: Database credentials, API keys
+
+Volumes
+
+Cung cấp persistent storage cho pods
+Dùng khi: Cần lưu trữ data bền vững
+Các loại: PersistentVolume, EmptyDir, HostPath
+Ví dụ phổ biến: Database storage, shared files
+
+LivenessProbe
+
+Kiểm tra container có đang hoạt động
+Dùng khi: Cần auto-healing cho applications
+Các method: HTTP, TCP, Command
+Ví dụ phổ biến: Health check endpoints
+
+ReadinessProbe
+
+Kiểm tra pod đã sẵn sàng nhận traffic
+Dùng khi: Cần đảm bảo service quality
+Các method: HTTP, TCP, Command
+Ví dụ phổ biến: Application startup checks
+
+Nodes
+
+Máy vật lý hoặc máy ảo trong cluster
+Vai trò: Chạy pods và containers
+Quản lý bởi: Kubelet
+Ví dụ phổ biến: VM instances, physical servers
